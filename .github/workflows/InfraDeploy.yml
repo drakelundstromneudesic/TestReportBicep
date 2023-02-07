@@ -1,16 +1,16 @@
-name: "Deploy Bicep for Infrastructure"
+name: Deploy Bicep for Infrastructure
   on: 
     workflow_dispatch:
     push:
     branches: 
-    - "main"
+    - main
 
 
 jobs: 
   build: 
     # Build front end environment
-    name: "build front end"
-    runs-on: "ubuntu-latest"
+    name: build front end
+    runs-on: ubuntu-latest
     steps: 
       # Checkout code
       - uses: actions/checkout@main
