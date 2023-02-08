@@ -1,6 +1,7 @@
-name: Azure Bicep Front end and Api Infra Deploy
+name: Azure Bicep Front end Infra Deploy
 on:
   workflow_dispatch:
+  push:
 
 
 jobs: 
