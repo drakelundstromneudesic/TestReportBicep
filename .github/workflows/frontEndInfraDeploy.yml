@@ -26,7 +26,7 @@ jobs:
           scope: resourcegroup
           resourceGroupName: BicepHackathonTest
           deploymentMode: incremental
-          template: ./infra/main.bicep
+          template: ./infra/frontEnd.bicep
           failOnStdErr: true
 
       
