@@ -1,9 +1,6 @@
-name: 'Deploy-Bicep-for-Infrastructure'
-  on: 
-    workflow_dispatch:
-    push:
-    branches: 
-    - main
+name: Azure Bicep Front end and Api Infra Deploy
+on:
+  workflow_dispatch:
 
 
 jobs: 
