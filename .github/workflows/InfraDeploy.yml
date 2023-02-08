@@ -1,4 +1,4 @@
-name: Deploy Bicep for Infrastructure
+name: 'Deploy-Bicep-for-Infrastructure'
   on: 
     workflow_dispatch:
     push:
